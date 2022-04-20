@@ -13,7 +13,7 @@ After helping Pewlett Hackard consolidate their company HR information into a da
   2. Our secondary querey was mores specific and presented us with only employees who were still currently with the company and their most recent title (the title we would have to backfill if they were to depart). This allowed us to see the specific employees we needed to follow as potential retirees. However, it wasn't as helpful with understanding the specific number of roles we would have to consider filling. 
   3. Our final querey presented us with the data necessary to comprehend the amount of roles that could be left unfilled if all retirement eligbile employees just up and left. Looking at our "retiring_titles" csv, we can see that: 72,458 of Pewlett Hackard employees were up for retirement. 70% of those employees fill the "Senior Engineer" and "Senior Staff" roles. This would be where the bulk of attention would go to ensure those slots get filled, presumably by younger employees who have a level of seniority in the company. 
 
-![Pic2](analysis/Pyber_Type_Summary_DF.png)
+![Pic2](Pic2.png)
 
 ### Mentorship Eligibility
   4. After discovering our potential departing employees and the number of roles we would need to fill, we next looked into the employees that could benefit from a mentorship program to fill the senior level roles being vacated. The querey returned a list of employees with their current role, allowing us to see who could be up for a promotion through a mentorship.
