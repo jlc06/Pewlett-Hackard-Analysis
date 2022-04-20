@@ -8,7 +8,7 @@ After helping Pewlett Hackard consolidate their company HR information into a da
 ### Retiring Titles
   1. Our initial query returned a table of all employees eligible for retirement, regardless of whether or not they were still with the company and including all of their past titles. This table was a good starting point, but there was too much noise and unnecessary data points that didn't help our analysis.
 
-![Pic1](analysis/Pyber_Type_Summary_DF.png)
+![Pic1](Pic1.png)
 
   2. Our secondary querey was mores specific and presented us with only employees who were still currently with the company and their most recent title (the title we would have to backfill if they were to depart). This allowed us to see the specific employees we needed to follow as potential retirees. However, it wasn't as helpful with understanding the specific number of roles we would have to consider filling. 
   3. Our final querey presented us with the data necessary to comprehend the amount of roles that could be left unfilled if all retirement eligbile employees just up and left. Looking at our "retiring_titles" csv, we can see that: 72,458 of Pewlett Hackard employees were up for retirement. 70% of those employees fill the "Senior Engineer" and "Senior Staff" roles. This would be where the bulk of attention would go to ensure those slots get filled, presumably by younger employees who have a level of seniority in the company. 
